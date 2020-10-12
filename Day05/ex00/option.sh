@@ -1,5 +1,5 @@
 #!/bin/bash
-while getopts ":h:b:" opt
+while getopts ":hb" opt
 do
   case $opt in
     h)
